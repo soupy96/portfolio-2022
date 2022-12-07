@@ -1,0 +1,284 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h3 {
+    margin: 30px auto;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-wrapper {
+    width: 80%;
+    padding: 0px 10%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.profile-card {
+    width: 400px;
+    height: 100%;
+    background-color: #ffffff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 52px -13px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 52px -13px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 52px -13px rgba(0, 0, 0, 0.35);
+    margin: 25px;
+}
+
+.bigbox {
+    width: 100%;
+    text-align: center;
+}
+
+.topbigbox {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.day-num {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 5px solid #111111;
+    margin: -40px auto 0px auto;
+    width: 70px;
+    background-color: #ffffff;
+}
+
+.botbigbox {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 100px;
+}
+
+.website {
+    width: 50%;
+    height: 100%;
+    background-color: #2e2e2e;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #111111;
+}
+
+.github {
+    width: 50%;
+    height: 100%;
+    background-color: #2e2e2e;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #111111;
+}
+
+.website:hover, .github:hover {
+    background-color: #1a1a1a;
+}
+
+.botbigbox a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bigbox img {
+    margin-left: 10px;
+}
+
+.bg-img {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.day-1 {
+    background-image: url(../img/day1-preview-smol.png);
+}
+.day-2 {
+    background-image: url(../img/day2-preview-smol.png);
+}
+.day-3 {
+    background-image: url(../img/day3-preview-smol.png);
+}
+.day-4 {
+    background-image: url(../img/day4-preview-smol.png);
+}
+.day-5 {
+    background-image: url(../img/day5-preview-smol.png);
+}
+.day-6 {
+    background-image: url(../img/day6-preview-smol.png);
+}
+.day-7 {
+    background-image: url(../img/day7-preview-smol.png);
+}
+.day-8 {
+    background-image: url(../img/day8-preview-smol.png);
+}
+.day-9 {
+    background-image: url(../img/day9-preview-smol.png);
+}
+.day-10 {
+    background-image: url(../img/day10-preview-smol.png);
+}
+.day-11 {
+    background-image: url(../img/day12-preview-smol.png);
+}
+.day-12 {
+    background-image: url(../img/day12-preview-smol.png);
+}
+.day-13 {
+    background-image: url(../img/day13-preview-smol.png);
+}
+.day-14 {
+    background-image: url(../img/day14-preview-smol.png);
+}
+.day-15 {
+    background-image: url(../img/day15-preview-smol.png);
+}
+.day-16 {
+    background-image: url(../img/day16-preview-smol.png);
+}
+.day-17 {
+    background-image: url(../img/day17-preview-smol.png);
+}
+.day-18 {
+    background-image: url(../img/day18-preview-smol.png);
+}
+.day-19 {
+    background-image: url(../img/day19-preview-smol.png);
+}
+.day-20 {
+    background-image: url(../img/day20-preview-smol.png);
+}
+.day-21 {
+    background-image: url(../img/day21-preview-smol.png);
+}
+.day-22 {
+    background-image: url(../img/day22-preview-smol.png);
+}
+.day-23 {
+    background-image: url(../img/day23-preview-smol.png);
+}
+.day-24 {
+    background-image: url(../img/day24-preview-smol.png);
+}
+.day-25 {
+    background-image: url(../img/day25-preview-smol.png);
+}
+.day-26 {
+    background-image: url(../img/day26-preview-smol.png);
+}
+.day-27 {
+    background-image: url(../img/day27-preview-smol.png);
+}
+.day-28 {
+    background-image: url(../img/day28-preview-smol.png);
+}
+.day-29 {
+    background-image: url(../img/day29-preview-smol.png);
+}
+.day-30 {
+    background-image: url(../img/day30-preview-smol.png);
+}
+.day-31 {
+    background-image: url(../img/day31-preview-smol.png);
+}
+.day-32 {
+    background-image: url(../img/day32-preview-smol.png);
+}
+.day-33 {
+    background-image: url(../img/day33-preview-smol.png);
+}
+.day-34 {
+    background-image: url(../img/day34-preview-smol.png);
+}
+.day-35 {
+    background-image: url(../img/day35-preview-smol.png);
+}
+.day-36 {
+    background-image: url(../img/day36-preview-smol.png);
+}
+.day-37 {
+    background-image: url(../img/day37-preview-smol.png);
+}
+.day-38 {
+    background-image: url(../img/day38-preview-smol.png);
+}
+.day-39 {
+    background-image: url(../img/day39-preview-smol.png);
+}
+.day-40 {
+    background-image: url(../img/day40-preview-smol.png);
+}
+.day-41 {
+    background-image: url(../img/day41-preview-smol.png);
+}
+.day-42 {
+    background-image: url(../img/day42-preview-smol.png);
+}
+.day-43 {
+    background-image: url(../img/day43-preview-smol.png);
+}
+.day-44 {
+    background-image: url(../img/day44-preview-smol.png);
+}
+.day-45 {
+    background-image: url(../img/day45-preview-smol.png);
+}
+.day-46 {
+    background-image: url(../img/day46-preview-smol.png);
+}
+.day-47 {
+    background-image: url(../img/day47-preview-smol.png);
+}
+.day-48 {
+    background-image: url(../img/day48-preview-smol.png);
+}
+.day-49 {
+    background-image: url(../img/day49-preview-smol.png);
+}
+.day-50 {
+    background-image: url(../img/day50-preview-smol.png);
+}
